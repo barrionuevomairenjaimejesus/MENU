@@ -14,7 +14,7 @@ const main = async () => {
                 let perimetrorombo=pRombo(ladorombo)
                 let arearombo=aRombo(diagonalMenor,diagonalMayor,ladorombo)
                 console.log("POR LO TANTO EL PERÍMETRO ES = "+perimetrorombo)
-                console.log("POR LO TANTO ÁREA ES: = "+arearombo)
+                console.log("POR LO TANTO ÁREA ES = "+arearombo)
                 break
             case 2:
                 console.log('VAMOS A CALCULAR EL AREA Y PERÍMETRO DEL CUADRADO')
