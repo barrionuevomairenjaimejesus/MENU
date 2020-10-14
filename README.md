@@ -1,6 +1,6 @@
 **A CONTINUACIÓN DEJO TODOS LOS COMANDOS PARA LA CREACIÓN DE ESTE TIPO DE PROTECYO CON NODEJS**
-npm init --yes
-npm install typescript -D
+npm init --yes 
+npm install typescript -D 
 npx tsc --init
 Se genera el tsconfig.json y en el hacemos las modificaciones de siempre: '"target": "es6",', '"outDir": "./dist",' y en la linea 68 ponemos lo siguiente:
   "exclude": [
